@@ -21,9 +21,10 @@ HTTP methods implemented by User resource
 
 ## Accessing the API
 ### For User 
-* Use http://hostname/users with GET and POST HTTP method to fetch or add users in system.
-* Use http://hostname/user/{int:id} with GET, PUT and DELETE method to fetch, update or delete specified user in system.
+* Use http://hostname/users with GET and POST HTTP method to fetch or add users.
+* Use http://hostname/user/{int:id} with GET, PUT and DELETE method to fetch, update or delete specified user.
 
 ### For Book
-* Use http://hostname/books with GET and POST HTTP method to fetch or add books in system.
-* Use http://hostname/book/{int:id} with GET, PUT and DELETE method to fetch, update or delete specified book in system.
+* Use http://hostname/books with GET and POST HTTP method to fetch or add books.
+* Use http://hostname/book/{int:id} with GET, PUT and DELETE method to fetch, update or delete specified book.
+* Use http://hostname/userissued/{int:id} with GET method to fetch all the books issued by specified user.
